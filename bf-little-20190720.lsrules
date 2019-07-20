@@ -912,39 +912,6 @@
       "remote" : "any"
     },
     {
-      "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "disabled" : true,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
-      "remote" : "any"
-    },
-    {
       "action" : "allow",
       "creationDate" : 1558176449.5226979,
       "modificationDate" : 1558176449.5226979,
@@ -1287,36 +1254,6 @@
       "creationDate" : 1558175729.952106,
       "modificationDate" : 1558175729.952106,
       "owner" : "system",
-      "ports" : "123",
-      "process" : "\/usr\/libexec\/timed",
-      "protocol" : "udp",
-      "remote" : "any"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "ports" : "123",
-      "process" : "\/usr\/libexec\/timed",
-      "protocol" : "udp",
-      "remote" : "any"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "ports" : "123",
-      "process" : "\/usr\/libexec\/timed",
-      "protocol" : "udp",
-      "remote" : "any"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
       "ports" : "123",
       "process" : "\/usr\/libexec\/timed",
       "protocol" : "udp",
