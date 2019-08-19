@@ -1,102 +1,120 @@
 {
   "description" : "",
-  "name" : "bf-little-last.lsrules",
+  "name" : "bf",
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
       "direction" : "incoming",
-      "modificationDate" : 1558175729.952106,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175762.161217,
+      "creationDate" : 1563626261.970489,
       "direction" : "incoming",
-      "modificationDate" : 1558175762.161217,
+      "modificationDate" : 1563626261.970489,
       "owner" : "me",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558175729.952106,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "direction" : "incoming",
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626256.5817518,
+      "direction" : "incoming",
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "any",
       "protocol" : "icmp",
@@ -104,9 +122,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175762.161217,
+      "creationDate" : 1563626261.970489,
       "direction" : "incoming",
-      "modificationDate" : 1558175762.161217,
+      "modificationDate" : 1563626261.970489,
       "owner" : "me",
       "process" : "any",
       "protocol" : "icmp",
@@ -114,9 +132,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -124,9 +142,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -134,9 +152,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -144,9 +162,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -154,9 +172,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -164,9 +182,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -174,9 +192,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -184,9 +202,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "protocol" : "icmp",
@@ -194,338 +212,424 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626415.045028,
+      "direction" : "incoming",
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "protocol" : "icmp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "direction" : "incoming",
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "protocol" : "icmp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175762.161217,
-      "modificationDate" : 1558175762.161217,
+      "creationDate" : 1563626261.970489,
+      "modificationDate" : 1563626261.970489,
       "owner" : "me",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "any",
       "protocol" : "tcp",
       "remote-domains" : [
-        "icloud.com",
-        "icloud-content.com"
+        "icloud-content.com",
+        "icloud.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "any",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "icloud-content.com",
+        "icloud.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "any",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "icloud-content.com",
+        "icloud.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175762.161217,
-      "modificationDate" : 1558175762.161217,
+      "creationDate" : 1563626261.970489,
+      "modificationDate" : 1563626261.970489,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote-domains" : [
         "apple.com",
-        "cdn-apple.com",
-        "mzstatic.com"
+        "mzstatic.com",
+        "cdn-apple.com"
       ]
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "remote-domains" : [
+        "apple.com",
+        "mzstatic.com",
+        "cdn-apple.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "remote-domains" : [
+        "apple.com",
+        "mzstatic.com",
+        "cdn-apple.com"
+      ]
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175762.161217,
-      "modificationDate" : 1558175762.161217,
+      "creationDate" : 1563626261.970489,
+      "modificationDate" : 1563626261.970489,
       "owner" : "me",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/2Do.app\/Contents\/MacOS\/2Do",
       "remote-domains" : "apple.com"
@@ -533,8 +637,8 @@
     {
       "action" : "allow",
       "codeSignature" : "ignore",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/2Do.app\/Contents\/MacOS\/2Do",
       "remote-domains" : "toodledo.com"
@@ -542,129 +646,137 @@
     {
       "action" : "allow",
       "codeSignature" : "ignore",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "process" : "\/Applications\/2Do.app\/Contents\/Library\/LoginItems\/EKT6323JY3.com.guidedways.TodoMac.Helper.app\/Contents\/MacOS\/EKT6323JY3.com.guidedways.TodoMac.Helper",
-      "remote-domains" : "crashlytics.com"
-    },
-    {
-      "action" : "allow",
-      "codeSignature" : "ignore",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/2Do.app\/Contents\/Library\/LoginItems\/EKT6323JY3.com.guidedways.TodoMac.Helper.app\/Contents\/MacOS\/EKT6323JY3.com.guidedways.TodoMac.Helper",
       "remote-domains" : "apple.com"
     },
     {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/Applications\/2Do.app\/Contents\/Library\/LoginItems\/EKT6323JY3.com.guidedways.TodoMac.Helper.app\/Contents\/MacOS\/EKT6323JY3.com.guidedways.TodoMac.Helper",
+      "remote-domains" : "crashlytics.com"
+    },
+    {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/2Do.app\/Contents\/Library\/LoginItems\/EKT6323JY3.com.guidedways.TodoMac.Helper.app\/Contents\/MacOS\/EKT6323JY3.com.guidedways.TodoMac.Helper",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/万年历.app\/Contents\/MacOS\/万年历",
       "remote-domains" : "007manhua.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/印象笔记.app\/Contents\/MacOS\/Evernote",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Adobe Lightroom\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Library\/Application Support\/Adobe\/AdobeGCClient\/AdobeGCClient.app\/Contents\/MacOS\/AdobeGCClient",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1560257492.113198,
-      "modificationDate" : 1560257492.113198,
-      "owner" : "me",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
       "process" : "\/Applications\/Alfred 3.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Anki-2.0.app\/Contents\/MacOS\/Anki",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/App Store.app\/Contents\/MacOS\/App Store",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "\/usr\/sbin\/automount",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/automount",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/automount",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/automount",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/usr\/sbin\/automount",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/automount",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "priority" : "override",
       "process" : "\/Applications\/Bartender 3.app\/Contents\/MacOS\/Bartender 3",
@@ -672,57 +784,206 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
       "remote-hosts" : "updates.boastr.net"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
       "remote-hosts" : "updates.bettertouchtool.net"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1566135402.458087,
+      "modificationDate" : 1566135402.458087,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "mzstatic.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566135393.9530261,
+      "modificationDate" : 1566135393.9530261,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "smartisan.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566135379.769805,
+      "modificationDate" : 1566135379.769805,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "macpaw.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566135356.133142,
+      "modificationDate" : 1566135356.133142,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "cleanmymac.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566135328.978313,
+      "modificationDate" : 1566135328.978313,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "kapeli.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566135327.1711268,
+      "modificationDate" : 1566135327.1711268,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "bettertouchtool.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566135325.635848,
+      "modificationDate" : 1566135325.635848,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "fatcatsoftware.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566135323.8642159,
+      "modificationDate" : 1566135323.8642159,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "tripmode.ch"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566133392.208024,
+      "modificationDate" : 1566133392.208024,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "macitbetter.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566133389.3023491,
+      "modificationDate" : 1566133389.3023491,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "airserver.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566133387.2150259,
+      "modificationDate" : 1566133387.2150259,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "devmate.com"
+    },
+    {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1566135396.8569798,
+      "modificationDate" : 1566135396.8569798,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "pilotmoon.com"
+    },
+    {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1566135391.6743231,
+      "modificationDate" : 1566135391.6743231,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "macbartender.com"
+    },
+    {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1566135389.116147,
+      "modificationDate" : 1566135389.116147,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "iterm2.com"
+    },
+    {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1566135386.3310819,
+      "modificationDate" : 1566135386.3310819,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "teamviewer.com"
+    },
+    {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1566135369.3414879,
+      "modificationDate" : 1566135369.3414879,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566133399.9382701,
+      "modificationDate" : 1566133399.9382701,
+      "owner" : "me",
+      "process" : "\/Users\/bf\/Library\/Application Support\/CleanMyMac X\/CleanMyMac X HealthMonitor.app\/Contents\/MacOS\/CleanMyMac X HealthMonitor",
+      "remote-domains" : "devmate.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1566133411.657764,
+      "modificationDate" : 1566133411.657764,
+      "owner" : "me",
+      "process" : "\/Users\/bf\/Library\/Application Support\/CleanMyMac X\/CleanMyMac X HealthMonitor.app\/Contents\/MacOS\/CleanMyMac X HealthMonitor",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Clipy.app\/Contents\/MacOS\/Clipy",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
       "direction" : "incoming",
-      "modificationDate" : 1558175729.952106,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "ports" : "68",
       "process" : "\/usr\/libexec\/configd",
@@ -731,9 +992,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "68",
       "process" : "\/usr\/libexec\/configd",
@@ -742,9 +1003,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "68",
       "process" : "\/usr\/libexec\/configd",
@@ -753,9 +1014,9 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "68",
       "process" : "\/usr\/libexec\/configd",
@@ -764,9 +1025,20 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
       "direction" : "incoming",
-      "modificationDate" : 1558176449.5226979,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "ports" : "68",
+      "process" : "\/usr\/libexec\/configd",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "direction" : "incoming",
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "68",
       "process" : "\/usr\/libexec\/configd",
@@ -775,16 +1047,16 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Feem.app\/Contents\/MacOS\/Feem",
       "remote-domains" : "feeperfect.com"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Users\/bf\/Desktop\/Focus.app\/Contents\/MacOS\/Focus",
       "remote" : "any"
@@ -792,16 +1064,16 @@
     {
       "action" : "allow",
       "codeSignature" : "ignore",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/FreshBackMac.app\/Contents\/MacOS\/FreshBackMac",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote-hosts" : "ws.infinitynewtab.com",
@@ -809,26 +1081,8 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
-      "remote-domains" : "bcebos.com",
-      "via" : "\/Applications\/Google Chrome.app\/Contents\/Versions\/73.0.3683.103\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
-      "owner" : "any",
-      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
-      "remote-domains" : "amplitude.com",
-      "via" : "\/Applications\/Google Chrome.app\/Contents\/Versions\/74.0.3729.131\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote-domains" : "walatao.com",
@@ -836,59 +1090,77 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
-      "remote-domains" : "baidubce.com",
+      "remote-domains" : "bcebos.com",
       "via" : "\/Applications\/Google Chrome.app\/Contents\/Versions\/73.0.3683.103\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "amplitude.com",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Versions\/74.0.3729.131\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote-domains" : "mutinyhq.io",
       "via" : "\/Applications\/Google Chrome.app\/Contents\/Versions\/74.0.3729.131\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
     },
     {
+      "action" : "deny",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
+      "remote-domains" : "baidubce.com",
+      "via" : "\/Applications\/Google Chrome.app\/Contents\/Versions\/73.0.3683.103\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+    },
+    {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Google Chrome.app\/Contents\/MacOS\/Google Chrome",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Hidata.app\/Contents\/MacOS\/Hidata",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1559046495.2363729,
-      "modificationDate" : 1559046495.2363729,
-      "owner" : "me",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
       "process" : "\/Applications\/IntelliJ IDEA.app\/Contents\/MacOS\/idea",
       "remote-hosts" : "plugins.jetbrains.com"
     },
     {
       "action" : "deny",
-      "creationDate" : 1559046484.3387001,
-      "modificationDate" : 1559046484.3387001,
-      "owner" : "me",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
       "process" : "\/Applications\/IntelliJ IDEA.app\/Contents\/MacOS\/idea",
       "remote-domains" : "aliyuncs.com"
     },
     {
       "action" : "allow",
       "codeSignature" : "ignore",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/iTerm.app\/Contents\/MacOS\/iTerm2",
       "remote-domains" : "github.com",
@@ -896,8 +1168,8 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "443",
       "process" : "\/Library\/Little Snitch\/Little Snitch Helper.app\/Contents\/MacOS\/Little Snitch Helper",
@@ -905,216 +1177,248 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Library\/Little Snitch\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Library\/Little Snitch\/Little Snitch Daemon.bundle\/Contents\/XPCServices\/Little Snitch URL Downloader.xpc\/Contents\/MacOS\/Little Snitch URL Downloader",
       "remote-domains" : "githubusercontent.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "\/usr\/sbin\/mDNSResponder",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/mDNSResponder",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/mDNSResponder",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/mDNSResponder",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/mDNSResponder",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "\/sbin\/mount_nfs",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/sbin\/mount_nfs",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/sbin\/mount_nfs",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/sbin\/mount_nfs",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/sbin\/mount_nfs",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/sbin\/mount_nfs",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "\/usr\/libexec\/mount_url",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/mount_url",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/mount_url",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/mount_url",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/usr\/libexec\/mount_url",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/mount_url",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/mySIMBL.app\/Contents\/MacOS\/mySIMBL",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/mySIMBL.app\/Contents\/Library\/LoginItems\/mySIMBLHelper.app\/Contents\/MacOS\/mySIMBLHelper",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/NeteaseMusic.app\/Contents\/MacOS\/NeteaseMusic",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "\/usr\/sbin\/ocspd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/ocspd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/ocspd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/ocspd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/sbin\/ocspd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/usr\/sbin\/ocspd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/pap.er.app\/Contents\/MacOS\/pap.er",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "ports" : "123",
       "process" : "\/usr\/bin\/sntp",
@@ -1123,8 +1427,8 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "123",
       "process" : "\/usr\/bin\/sntp",
@@ -1133,8 +1437,8 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "123",
       "process" : "\/usr\/bin\/sntp",
@@ -1143,8 +1447,8 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "123",
       "process" : "\/usr\/bin\/sntp",
@@ -1153,8 +1457,8 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "123",
       "process" : "\/usr\/bin\/sntp",
@@ -1163,96 +1467,106 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "ports" : "123",
+      "process" : "\/usr\/bin\/sntp",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Users\/bf\/Library\/Application Support\/ShadowsocksX-NG\/ss-local-3.0.5\/ss-local",
       "remote-addresses" : "35.194.225.35"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Users\/bf\/Library\/Application Support\/ShadowsocksX-NG\/ss-local-3.0.5\/ss-local",
       "remote-addresses" : "35.194.225.35"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Users\/bf\/Library\/Application Support\/ShadowsocksX-NG\/ss-local-3.0.5\/ss-local",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/System\/Library\/PrivateFrameworks\/CommerceKit.framework\/Versions\/A\/Resources\/storedownloadd",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Sublime Text.app\/Contents\/MacOS\/Sublime Text",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/TextExpander.app\/Contents\/MacOS\/TextExpander",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/TextExpander.app\/Contents\/MacOS\/TextExpander",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/TextExpander.app\/Contents\/MacOS\/TextExpander",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/TextExpander 2.app\/Contents\/MacOS\/TextExpander",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/TickTick.app\/Contents\/MacOS\/TickTick",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/TickTick.app\/Contents\/PlugIns\/TickTick.Today.Widget.appex\/Contents\/MacOS\/TickTick.Today.Widget",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "ports" : "123",
       "process" : "\/usr\/libexec\/timed",
@@ -1261,8 +1575,18 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "ports" : "123",
+      "process" : "\/usr\/libexec\/timed",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "ports" : "123",
       "process" : "\/usr\/libexec\/timed",
@@ -1272,152 +1596,177 @@
     {
       "action" : "allow",
       "codeSignature" : "ignore",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/2Do.app\/Contents\/PlugIns\/Today.appex\/Contents\/MacOS\/Today",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Trello.app\/Contents\/MacOS\/Trello",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175729.952106,
-      "modificationDate" : 1558175729.952106,
+      "creationDate" : 1563626256.5817518,
+      "modificationDate" : 1563626256.5817518,
       "owner" : "system",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558175762.161217,
-      "modificationDate" : 1558175762.161217,
+      "creationDate" : 1563626261.970489,
+      "modificationDate" : 1563626261.970489,
       "owner" : "me",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
+      "owner" : "any",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Typora.app\/Contents\/MacOS\/Typora",
       "remote-domains" : "xitu.io"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/Typora.app\/Contents\/MacOS\/Typora",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/WeChat.app\/Contents\/MacOS\/WeChat",
       "remote-addresses" : "183.192.195.139"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/WeChat.app\/Contents\/MacOS\/WeChat",
       "remote-addresses" : "120.204.10.46"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/WeChat.app\/Contents\/MacOS\/WeChat",
       "remote-addresses" : "183.192.195.142"
     },
     {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1566135508.133317,
+      "modificationDate" : 1566135508.133317,
+      "owner" : "me",
+      "process" : "\/Applications\/WeChat.app\/Contents\/MacOS\/WeChat",
+      "remote-domains" : "qq.com"
+    },
+    {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/XMind.app\/Contents\/MacOS\/XMind",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "creationDate" : 1558176449.5226979,
-      "modificationDate" : 1558176449.5226979,
+      "creationDate" : 1563626415.045028,
+      "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/XtraFinder.app\/Contents\/Resources\/XtraFinderPlugins.bundle\/Contents\/Resources\/XtraFinderUpdater.app\/Contents\/MacOS\/XtraFinderUpdater",
       "remote" : "any"
