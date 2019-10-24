@@ -823,6 +823,24 @@
       "remote" : "any"
     },
     {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1570857817.121897,
+      "modificationDate" : 1570857817.121897,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "utorrent.com"
+    },
+    {
+      "action" : "allow",
+      "codeSignature" : "ignore",
+      "creationDate" : 1570854170.37168,
+      "modificationDate" : 1570854170.37168,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "163.com"
+    },
+    {
       "action" : "deny",
       "creationDate" : 1566135402.458087,
       "modificationDate" : 1566135402.458087,
@@ -936,24 +954,6 @@
       "owner" : "me",
       "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
       "remote-domains" : "iterm2.com"
-    },
-    {
-      "action" : "allow",
-      "codeSignature" : "ignore",
-      "creationDate" : 1566135386.3310819,
-      "modificationDate" : 1566135386.3310819,
-      "owner" : "me",
-      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
-      "remote-domains" : "teamviewer.com"
-    },
-    {
-      "action" : "allow",
-      "codeSignature" : "ignore",
-      "creationDate" : 1566135369.3414879,
-      "modificationDate" : 1566135369.3414879,
-      "owner" : "me",
-      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
-      "remote-domains" : "apple.com"
     },
     {
       "action" : "deny",
@@ -1521,30 +1521,6 @@
       "modificationDate" : 1563626415.045028,
       "owner" : "any",
       "process" : "\/Applications\/TextExpander.app\/Contents\/MacOS\/TextExpander",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/TextExpander.app\/Contents\/MacOS\/TextExpander",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/TextExpander.app\/Contents\/MacOS\/TextExpander",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/TextExpander 2.app\/Contents\/MacOS\/TextExpander",
       "remote" : "any"
     },
     {
