@@ -898,14 +898,6 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1566135323.8642159,
-      "modificationDate" : 1566135323.8642159,
-      "owner" : "me",
-      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
-      "remote-domains" : "tripmode.ch"
-    },
-    {
-      "action" : "deny",
       "creationDate" : 1566133392.208024,
       "modificationDate" : 1566133392.208024,
       "owner" : "me",
