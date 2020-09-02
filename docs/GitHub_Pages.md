@@ -28,7 +28,9 @@ GitHub Pages支持两种用法：个人站点和项目站点。
 
 ### 项目站点
 
-在Github的项目主页，点击“settings”-“GitHub Pages”可以设置一个目录作为站点主目录，比如“docs”，同时在项目根目录下建一个同名的文件夹，只有这个文件夹及子文件夹里的文件可以被浏览器访问。
+公共项目是免费的；私有项目需要收费（2020.09.02）；
+
+在Github的公共项目主页，点击“settings”-“GitHub Pages”可以设置一个目录作为站点主目录，比如“docs”，同时在项目根目录下建一个同名的文件夹，只有这个文件夹及子文件夹里的文件可以被浏览器访问。（私有项目的“GitHub Pages”无设置项）
 
 在这文件夹下创建的文件，可以通过  http://username.github.io/repository/filename 访问（其中username是您在GitHub上的用户名， repository是项目名）。
 
