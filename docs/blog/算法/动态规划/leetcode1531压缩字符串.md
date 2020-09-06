@@ -1,14 +1,12 @@
 
 
-难度系数：Hard
-
-
-
 
 
 ## 题源
 
 Leetcode：[String Compression II](https://leetcode.com/contest/weekly-contest-199/problems/string-compression-ii/)  
+
+难度系数：Hard
 
 
 
