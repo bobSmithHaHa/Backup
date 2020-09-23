@@ -371,6 +371,158 @@
       "owner" : "any",
       "process" : "\/Applications\/XtraFinder.app\/Contents\/Resources\/XtraFinderPlugins.bundle\/Contents\/Resources\/XtraFinderUpdater.app\/Contents\/MacOS\/XtraFinderUpdater",
       "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1594111495.61063,
+      "modificationDate" : 1594111495.61063,
+      "owner" : "me",
+      "process" : "\/Applications\/Alfred 4.app\/Contents\/MacOS\/Alfred",
+      "remote-domains" : "alfredapp.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1594110350.8119791,
+      "modificationDate" : 1594110350.8119791,
+      "owner" : "me",
+      "process" : "\/Applications\/Alfred 4.app\/Contents\/Preferences\/Alfred Preferences.app\/Contents\/MacOS\/Alfred Preferences",
+      "remote-domains" : "alfredapp.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599975274.211386,
+      "modificationDate" : 1599975274.211386,
+      "owner" : "me",
+      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
+      "remote-domains" : "charliemonroesoftware.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1594202099.9955831,
+      "modificationDate" : 1594202099.9955831,
+      "owner" : "me",
+      "process" : "\/Applications\/MacBooster 8.app\/Contents\/MacOS\/MacBooster 8",
+      "remote-domains" : "iobit.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1594202110.6715951,
+      "modificationDate" : 1594202110.6715951,
+      "owner" : "me",
+      "process" : "\/Applications\/MacBooster 8.app\/Contents\/MacOS\/MacBooster 8",
+      "remote-domains" : "macbooster.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599909066.6161342,
+      "modificationDate" : 1599909066.6161342,
+      "owner" : "me",
+      "process" : "\/Applications\/PDF Expert.app\/Contents\/MacOS\/PDF Expert",
+      "remote-domains" : "amplitude.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599909072.3615389,
+      "modificationDate" : 1599909072.3615389,
+      "owner" : "me",
+      "process" : "\/Applications\/PDF Expert.app\/Contents\/MacOS\/PDF Expert",
+      "remote-domains" : "appcenter.ms"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599909094.0406089,
+      "modificationDate" : 1599909094.0406089,
+      "owner" : "me",
+      "process" : "\/Applications\/PDF Expert.app\/Contents\/MacOS\/PDF Expert",
+      "remote-domains" : "devmate.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599909070.4291182,
+      "modificationDate" : 1599909070.4291182,
+      "owner" : "me",
+      "process" : "\/Applications\/PDF Expert.app\/Contents\/MacOS\/PDF Expert",
+      "remote-domains" : "pdfexpert.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599909095.5077682,
+      "modificationDate" : 1599909095.5077682,
+      "owner" : "me",
+      "process" : "\/Applications\/PDF Expert.app\/Contents\/MacOS\/PDF Expert",
+      "remote-domains" : "readdle.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1591343579.8150449,
+      "modificationDate" : 1591343579.8150449,
+      "owner" : "me",
+      "process" : "\/Applications\/WeChat.app\/Contents\/MacOS\/WeChat",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599906934.1680021,
+      "modificationDate" : 1599906934.1680021,
+      "owner" : "me",
+      "process" : "\/Applications\/PDFelement.app\/Contents\/MacOS\/PDFelement",
+      "remote-domains" : "google-analytics.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599906943.353687,
+      "modificationDate" : 1599906943.353687,
+      "owner" : "me",
+      "process" : "\/Applications\/PDFelement.app\/Contents\/MacOS\/PDFelement",
+      "remote-domains" : "wondershare.cc"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1599906946.460501,
+      "modificationDate" : 1599906946.460501,
+      "owner" : "me",
+      "process" : "\/Applications\/PDFelement.app\/Contents\/MacOS\/PDFelement",
+      "remote-domains" : "wondershare.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1596705906.9938321,
+      "modificationDate" : 1596705906.9938321,
+      "owner" : "me",
+      "process" : "\/Applications\/Wondershare UniConverter.app\/Contents\/MacOS\/Wondershare UniConverter",
+      "remote-domains" : "google-analytics.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1596705850.120955,
+      "modificationDate" : 1596705850.120955,
+      "owner" : "me",
+      "process" : "\/Applications\/Wondershare UniConverter.app\/Contents\/MacOS\/Wondershare UniConverter",
+      "remote-domains" : "wondershare.cc"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1596705836.1117139,
+      "modificationDate" : 1596705836.1117139,
+      "owner" : "me",
+      "process" : "\/Applications\/Wondershare UniConverter.app\/Contents\/MacOS\/Wondershare UniConverter",
+      "remote-domains" : "wondershare.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1594110539.453953,
+      "modificationDate" : 1594110539.453953,
+      "owner" : "me",
+      "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1596705929.8117208,
+      "modificationDate" : 1596705929.8117208,
+      "owner" : "me",
+      "process" : "\/Applications\/Wondershare UniConverter.app\/Contents\/MacOS\/Wondershare UniConverter",
+      "remote" : "any"
     }
   ]
 }
