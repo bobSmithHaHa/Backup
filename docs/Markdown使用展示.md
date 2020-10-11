@@ -35,6 +35,20 @@ emoji表情：输入不同的符号码（两个冒号包围的字符）可以显
 
 
 
+## 图片
+
+普通：
+
+![test.png](./test/test.png)
+
+
+
+设置大小及备注：
+
+<img src="./test/test.png" alt="00005" style="zoom:40%;" />
+
+<center>40%大小</center>
+
 
 
 ## GitHub不支持
