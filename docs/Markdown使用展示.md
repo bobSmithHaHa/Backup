@@ -45,8 +45,9 @@ emoji表情：输入不同的符号码（两个冒号包围的字符）可以显
 
 设置大小及备注：
 
+<div  align="center">    
 <img src="./test/test.png" alt="00005" style="zoom:40%;" />
-
+</div>
 <center>40%大小</center>
 
 
