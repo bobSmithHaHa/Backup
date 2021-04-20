@@ -4,6 +4,6 @@
 
 
 
-路径docs/blog/用于保存我写的blog/文章。
+路径“docs/blog/”用于保存我写的blog文章。
 
 
