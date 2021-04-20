@@ -2,9 +2,13 @@
 
 
 
-本项目GitHub Pages访问地址：
+## GitHub Pages
 
-https://bobsmithhaha.github.io/Backup/
+本项目设置了GitHub Pages。
+
+主页访问地址：https://bobsmithhaha.github.io/Backup/
+
+对应的本地目录：./docs/index.md
 
 
 
