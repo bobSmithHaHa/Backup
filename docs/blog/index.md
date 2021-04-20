@@ -1,6 +1,6 @@
 # hello
 
-本文件的路径：docs/blog/index.html
+本文件的路径：docs/blog/index.md
 
 
 
