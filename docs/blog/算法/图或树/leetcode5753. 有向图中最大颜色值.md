@@ -23,9 +23,9 @@ Leetcode链接：https://leetcode-cn.com/problems/largest-color-value-in-a-direc
 
 
 
-## 思路
+## 思路1
 
-有向图环判断 + 遍历统计（dp）
+有向图环判断dfs + 遍历统计（dp）
 
 
 
@@ -121,6 +121,114 @@ Leetcode链接：https://leetcode-cn.com/problems/largest-color-value-in-a-direc
 ```
 
 
+
+
+
+
+
+## 思路2
+
+拓扑排序bfs + 遍历统计（dp）
+
+
+
+
+
+### 代码
+
+```java
+
+    public int largestPathValue(String colors, int[][] edges) {
+        int n = colors.length();
+        int[] ans = new int[n];
+
+        return topSort(n, edges, ans, colors);
+    }
+
+    public int topSort(int n, int[][] edges, int[] ans, String colors) {
+        // 建图
+        ArrayList<LinkedList<Integer>> g = buildDirectedGraph(n, edges);
+        return topSort(g, n, ans, colors);
+    }
+
+    public static int topSort(ArrayList<LinkedList<Integer>> g, int n, int[] ans, String colors) {
+        // 求入度数组
+        int[] in = new int[n];
+        for (LinkedList<Integer> l : g) {
+            for (Integer v : l) {
+                in[v]++;
+            }
+        }
+
+        int[][] num = new int[n][26];
+        // 入度为0的进队列
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            if (in[i] == 0) {
+                q.add(i);
+            }
+        }
+
+        // 结果数组和下标
+        int k = 0;
+
+        //排序
+        while (!q.isEmpty()) {
+            int u = q.poll();
+            ans[k++] = u;
+            ++num[u][colors.charAt(u) - 'a'];
+            LinkedList<Integer> l = g.get(u);
+            if (null != l) {
+                for (Integer v : l) {
+                    --in[v];
+                    for (int i = 0; i < 26; i++) {
+                        num[v][i] = Math.max(num[v][i], num[u][i]);
+                    }
+                    if (in[v] == 0) {
+                        q.add(v);
+                    }
+                }
+            }
+        }
+
+        int res = 0;
+        for (int i = 0; i < n; i++) {
+            res = Math.max(res, Arrays.stream(num[i])
+                                      .max()
+                                      .getAsInt());
+        }
+        return k == n ? (res) : -1;
+    }
+
+    /**
+     * 生成一个可变长度的二维数组：ArrayList的每个元素时链表
+     * 可用于“图或树结构”的每个点的相连的点。
+     *
+     * @param n
+     * @param <T>
+     * @return
+     */
+    public <T> ArrayList<LinkedList<T>> newArrayListLinkedList(int n) {
+        ArrayList<LinkedList<T>> l = new ArrayList<>(n);
+        for (int i = 0; i < n; i++) {
+            l.add(new LinkedList<T>());
+        }
+        return l;
+    }
+
+    /**
+     * 建有向图
+     */
+    public ArrayList<LinkedList<Integer>> buildDirectedGraph(int n, int[][] edges) {
+        ArrayList<LinkedList<Integer>> l = newArrayListLinkedList(n);
+        for (int i = 0; i < edges.length; i++) {
+            l.get(edges[i][0])
+             .add(edges[i][1]);
+        }
+        return l;
+    }
+
+```
 
 
 
