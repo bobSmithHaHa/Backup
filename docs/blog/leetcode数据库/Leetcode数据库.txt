@@ -1,0 +1,49 @@
+
+
+select Person.FirstName, Person.LastName, Address.City,Address.State from Person LEFT JOIN Address on Person.PersonId=Address.PersonId;
+
+select e1.name as Employee from Employee as e1 join Employee as e2 on e1.ManagerId=e2.Id where e1.ManagerId is not null and e1.Salary>e2.Salary;
+
+select Email from Person group by Email having count(*)>1;
+
+select c.Name as Customers from Customers c left join Orders o on c.id=o.CustomerId where o.CustomerId is null;
+
+
+select w1.Id from Weather as w1 join Weather as w2 on w1.date-w2.date=1 where w1.Temperature>w2.Temperature;
+
+select w1.Id from Weather w1 join Weather w2 on datediff(w1.date,w2.date)=1 where w1.Temperature>w2.Temperature;
+
+select distinct l1.Num as ConsecutiveNums from Logs l1 join Logs l2 on l1.id-l2.id=-1 join Logs l3 on l2.id-l3.id=-1 where l1.Num=l2.Num and l1.Num=l3.Num;
+
+
+select Salary from Employee e1 join Employee e2
+
+
+select max(e1.Salary) SecondHighestSalary from Employee e1 where e1.Salary!=(select max(e2.Salary) from Employee e2);
+
+select s1.Score,(select count(*) from (select s2.Score from Scores s2 group by s2.Score order by s2.Score desc) uniqS where uniqS.Score>s1.Score)+1 as Rank from Scores s1 order by s1.Score desc;
+
+
+select Score,Rank from (select s1.Score,@curRank:=@curRank+if(s1.Score=@curScore,0,1) Rank,@curScore:=s1.Score from Scores s1 ,(select @curRank:=0) x,(select @curScore:=null) y order by s1.Score desc) t ;
+
+
+select min(Id) Id,Email from Person group by Email;
+select * from Person p1 join Person p2 on p1.Email=p2.Email
+where ;
+
+delete p1 from Person p1,Person p2 where p1.Email=p2.Email and p1.Id>p2.Id;
+
+delete p1 from Person p1 join Person p2 on p1.Email=p2.Email where p1.Id>p2.Id;
+
+
+
+
+
+
+
+
+
+
+
+
+
