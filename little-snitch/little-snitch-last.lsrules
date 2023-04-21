@@ -53,46 +53,6 @@
     },
     {
       "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
-      "remote-hosts" : "updates.boastr.net"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
-      "remote-hosts" : "updates.bettertouchtool.net"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1563626415.045028,
-      "modificationDate" : 1563626415.045028,
-      "owner" : "any",
-      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
-      "remote" : "any"
-    },
-    {
-      "action" : "deny",
       "creationDate" : 1566135402.458087,
       "modificationDate" : 1566135402.458087,
       "owner" : "me",
@@ -130,14 +90,6 @@
       "owner" : "me",
       "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
       "remote-domains" : "kapeli.com"
-    },
-    {
-      "action" : "deny",
-      "creationDate" : 1566135327.1711268,
-      "modificationDate" : 1566135327.1711268,
-      "owner" : "me",
-      "process" : "\/Applications\/CleanMyMac X.app\/Contents\/MacOS\/CleanMyMac X",
-      "remote-domains" : "bettertouchtool.net"
     },
     {
       "action" : "deny",
