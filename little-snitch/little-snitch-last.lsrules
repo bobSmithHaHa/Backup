@@ -3,6 +3,16 @@
   "name" : "bf",
   "rules" : [
     {
+      "action" : "allow",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/usr\/sbin\/ocspd",
+      "remote" : "any"
+    },
+    {
       "action" : "deny",
       "creationDate" : 1563626415.045028,
       "modificationDate" : 1563626415.045028,
@@ -49,6 +59,47 @@
       "owner" : "any",
       "priority" : "override",
       "process" : "\/Applications\/Bartender 3.app\/Contents\/MacOS\/Bartender 3",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Bartender 4.app\/Contents\/MacOS\/Bartender 4",
+      "remote-domains" : "macbartender.com"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "process" : "path.private\/var\/folders\/*\/BetterTouchTool.app\/Contents\/MacOS\/BetterTouchTool",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Downie 4.app\/Contents\/MacOS\/Downie 4",
+      "remote-domains" : "paddle.com"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/iTubeGo.app\/Contents\/MacOS\/iTubeGo",
+      "remote-domains" : "itubego.com"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/PopClip.app\/Contents\/MacOS\/PopClip",
+      "remote-domains" : "googleapis.com",
+      "via" : "\/usr\/local\/Cellar\/python@3.9\/3.9.5\/Frameworks\/Python.framework\/Versions\/3.9\/Resources\/Python.app\/Contents\/MacOS\/Python"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/PopClip.app\/Contents\/MacOS\/PopClip",
+      "remote-domains" : "appcenter.ms"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/V2rayU.app\/Contents\/MacOS\/V2rayU",
       "remote" : "any"
     },
     {
