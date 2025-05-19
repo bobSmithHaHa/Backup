@@ -99,17 +99,6 @@
     },
     {
       "action" : "allow",
-      "process" : "\/Applications\/PopClip.app\/Contents\/MacOS\/PopClip",
-      "remote-domains" : "microsofttranslator.com"
-    },
-    {
-      "action" : "deny",
-      "process" : "\/Applications\/PopClip.app\/Contents\/MacOS\/PopClip",
-      "remote-addresses" : "120.253.253.226",
-      "via" : "\/usr\/local\/Cellar\/python@3.9\/3.9.5\/Frameworks\/Python.framework\/Versions\/3.9\/Resources\/Python.app\/Contents\/MacOS\/Python"
-    },
-    {
-      "action" : "allow",
       "process" : "\/Applications\/V2rayU.app\/Contents\/MacOS\/V2rayU",
       "remote" : "any"
     },
