@@ -1,0 +1,8 @@
+# OpenCode 专属流量规则集
+payload:
+  # 本地进程匹配（精准捕获 OpenCode V1 / V2 及后台服务的所有外网请求）
+  - PROCESS-NAME,opencode
+  - PROCESS-NAME,opencode2
+  - PROCESS-PATH-REGEX,(?i).*opencode.*
+  # 官方专属域名
+  - DOMAIN-SUFFIX,opencode.ai

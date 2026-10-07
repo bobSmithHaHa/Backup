@@ -1,0 +1,19 @@
+# 自定义拦截规则集（补齐开源规则库漏录的国产大厂遥测/监控打点/隐私上报域名）
+payload:
+  # ─── 字节跳动 / 飞书 / 剪映 APM 性能监控与打点 ───
+  - DOMAIN,pc-mon.zijieapi.com # 字节跳动 PC 端 APM 性能监控与埋点
+  - DOMAIN-SUFFIX,mon.zijieapi.com # 字节跳动通用监控打点域名
+  - DOMAIN-SUFFIX,toblog.ctobsnssdk.com # 字节跳动飞书及 ToB 业务日志上报
+  # ─── Adobe 授权验证与遥测拦截（一行覆盖其数千条随机子域）───
+  - DOMAIN-SUFFIX,adobestats.io # Adobe 全家桶遥测统计域（含全部随机子域）
+  - DOMAIN-SUFFIX,licenses.adobe.com # Adobe 授权验证服务（防联网校验激活状态）
+  - DOMAIN,workflow.licenses.adobe.com # Adobe 工作流授权校验
+  - DOMAIN,workflow-stage.licenses.adobe.com # Adobe 预发环境授权校验
+  # ─── 广告平台 KEYWORD 泛化捕获（SDK 级广告，词高度专有无误伤）───
+  - DOMAIN-KEYWORD,applovin # AppLovin 移动广告聚合 SDK
+  - DOMAIN-KEYWORD,appsflyer # AppsFlyer 归因追踪 SDK
+  - DOMAIN-KEYWORD,omniture # Adobe/Omniture 网站分析统计
+  - DOMAIN-KEYWORD,openx # OpenX 广告交易平台
+  - DOMAIN-KEYWORD,adsystem # 各家广告系统域（如 googleadsystem）
+  - DOMAIN-KEYWORD,supersonicads # ironSource/SuperSonic 广告 SDK
+

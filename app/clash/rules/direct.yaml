@@ -1,0 +1,115 @@
+# 自定义直连规则集（包含自定义直连域名与 IP）
+payload:
+  - DOMAIN-SUFFIX,workflowy.com
+  # ─── Tailscale 节点互联、控制平面与虚拟网段直连 ───
+  - PROCESS-NAME,Tailscale
+  - PROCESS-NAME,tailscaled
+  - PROCESS-NAME,IPNExtension
+  - DOMAIN-SUFFIX,tailscale.com
+  - DOMAIN-SUFFIX,tailscale.io
+  - DOMAIN-SUFFIX,ts.net
+  - IP-CIDR,100.64.0.0/10,no-resolve
+  - IP-CIDR6,fd7a:115c:a1e0::/48,no-resolve
+  # ─── GitHub 直连分流 ───
+  # ⚠️ 顺序铁律：本集在主配置的 RULE-SET 引用必须位于 GEOSITE,github 之前，
+  #    否则下列域名会先被 GEOSITE,github 截走代理，直连加速全部失效！
+  - DOMAIN,api.github.com # GitHub API：直连 0.30s vs 代理 1.29s（快4倍）
+  - DOMAIN,codeload.github.com # 源码归档下载：直连 917KB/s vs 51KB/s（快18倍）；github.com 子域必须显式前置
+  - DOMAIN-SUFFIX,githubusercontent.com # RAW/Release附件/镜像层CDN：直连 0.85s·10/10成功 vs 代理 6.2s·7/10失败
+  - DOMAIN-SUFFIX,ghcr.io # 容器镜像仓库：直连 0.55s vs 代理 1.60s
+  # ─── npmjs（v2fly github 分类 include:npmjs 会截胡，需前置直连）用于 opencode2的安装需直连───
+  - DOMAIN-SUFFIX,npmjs.org # npm 仓库主域
+  - DOMAIN-SUFFIX,npmjs.com # npm 仓库备域
+  - DOMAIN-SUFFIX,npm.community # npm 社区论坛
+  # ─── 运营商与系统级直连（geosite 库实测未覆盖）───
+  - DOMAIN-SUFFIX,cmpassport.com # 中国移动一键登录认证（geosite 的 cn 分类未收录，走代理会致认证失败）
+  - DOMAIN-SUFFIX,id6.me # 运营商号码认证开放平台（同上）
+  - DOMAIN,wifi.cmcc # 中国移动路由器/光猫管理域（private 库不含）
+  - DOMAIN-SUFFIX,bootcss.com # 国内前端静态文件 CDN（开发者常用）
+  - DOMAIN-SUFFIX,staticfile.org # 七牛国内静态 CDN（同上）
+  - DOMAIN-SUFFIX,snssdk.com # 今日头条/抖音 API 域（字节系漏网项）
+  - DOMAIN-SUFFIX,toutiaopage.com # 今日头条页面域（同上）
+  # ─── Steam 全量下载 CDN 直连（steam@cn 仅覆盖国区段，此处补国际下载域）───
+  - DOMAIN-SUFFIX,steamcontent.com # Steam 游戏下载/素材 CDN 全量域
+  - DOMAIN-SUFFIX,cm.steampowered.com # Steam 内容管理下载域
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com # Steam 国内管道分发域
+  # ─── 群晖 NAS QuickConnect 远程访问 ───
+  - DOMAIN-SUFFIX,synology.com # 群晖官网与账户服务
+  - DOMAIN-SUFFIX,synology.me # QuickConnect 远程域名
+  - DOMAIN-SUFFIX,diskstation.me # DSM 远程域名
+  - DOMAIN-SUFFIX,i234.me # DSM 远程域名
+  - DOMAIN-SUFFIX,myds.me # DSM 远程域名
+  - DOMAIN-SUFFIX,dscloud.biz # DSM 云服务域名
+  - DOMAIN-SUFFIX,dscloud.me # DSM 云服务域名
+  - DOMAIN-SUFFIX,dscloud.mobi # DSM 云服务域名
+  - DOMAIN-SUFFIX,dsmynas.com # DSM 远程域名
+  - DOMAIN-SUFFIX,dsmynas.net # DSM 远程域名
+  - DOMAIN-SUFFIX,dsmynas.org # DSM 远程域名
+  - DOMAIN-SUFFIX,familyds.com # DSM 家庭云域名
+  - DOMAIN-SUFFIX,familyds.net # DSM 家庭云域名
+  - DOMAIN-SUFFIX,familyds.org # DSM 家庭云域名
+  # ─── Epic / Unreal（国区可直连商店与更新）───
+  - DOMAIN-SUFFIX,epicgames.dev # Epic 客户端更新域
+  - DOMAIN-SUFFIX,unrealengine.com # 虚幻引擎官网与资源
+  - DOMAIN-SUFFIX,paragon.com # Epic 相关游戏域
+  - DOMAIN-SUFFIX,helpshift.com # 应用内客服 SDK（多用于游戏）
+  # ─── PlayStation（主机系统/商店直连）───
+  - DOMAIN-SUFFIX,playstation.com # PSN 商店与账户
+  - DOMAIN-SUFFIX,playstation.net # PSN 网络服务
+  - DOMAIN-SUFFIX,playstationnetwork.com # PSN 认证域
+  # ─── TeamViewer 远控 ───
+  - DOMAIN-SUFFIX,teamviewer.com # TeamViewer 主服务域
+  # ─── Raycast 官方安装包与更新分发 CDN ───
+  - DOMAIN-SUFFIX,raycast-releases.com
+  # ─── ZIP0 在线视频与多渠道播放源直连（均已通过实测直连握手与切片下载验证）───
+  - DOMAIN-SUFFIX,zip0.com # 在线观看视频，多渠道，需要直连
+  - DOMAIN-SUFFIX,vibecafe.ai # ZIP0 前端交互与遥测脚本（直连比代理快 4 倍）
+  # 暴风资源（视频与图片）
+  - DOMAIN-SUFFIX,ddbbffcdn.com
+  - DOMAIN-SUFFIX,bfzypic.com
+  - DOMAIN-SUFFIX,picbf.com
+  # 量子资源（视频与图片，关键词覆盖 lzcdn2~99 与 cdnlz1~99 动态轮换切片源）
+  - DOMAIN-KEYWORD,lzcdn
+  - DOMAIN-KEYWORD,cdnlz
+  - DOMAIN-SUFFIX,lzcdn33v1.com
+  - DOMAIN-SUFFIX,lzipic.com
+  # 低端影视（主站直连，免消耗梯子流量）
+  - DOMAIN-SUFFIX,ddys.io
+  # 非凡资源（视频与图片）
+  - DOMAIN-SUFFIX,feifei-kan.com
+  - DOMAIN-SUFFIX,ffzy-play5.com
+  - DOMAIN-SUFFIX,feifeiimg.vip
+  # 电影天堂（视频与图片，切片CDN落地已实测直连极速且避免海外403）
+  - DOMAIN-SUFFIX,dytt-movie.com
+  - DOMAIN-SUFFIX,dytt-film.com
+  - DOMAIN-SUFFIX,dytt-tupian.com
+  - DOMAIN-SUFFIX,dytt-tvs.com
+  - DOMAIN-SUFFIX,dytt-cinema.com
+  - DOMAIN-SUFFIX,dytt-cine.com
+  - DOMAIN-SUFFIX,dytt-hot.com
+  - DOMAIN-SUFFIX,jimxtc.com
+  # 极速资源（视频与图片）
+  - DOMAIN-SUFFIX,jisuzyv.com
+  - DOMAIN-SUFFIX,jisuimage.com
+  # 最大资源（仅视频直连；其图片域 zuidapic.com 实测被墙已剔除，走代理加载）
+  - DOMAIN-SUFFIX,zuidazym3u8.com
+  - DOMAIN-SUFFIX,qwe132456.cc # 最大资源视频切片落地 CDN（实测直连 83.6 KB/s vs 代理 7s 超时阻断）
+  # 魔都资源（视频与图片，关键词全局覆盖 modujx10~99 动态轮换切片源）
+  # - DOMAIN-KEYWORD,modujx # 实测晚高峰直连限速严重(65KB/s vs 代理226KB/s)，临时放行走代理加速
+  - DOMAIN-SUFFIX,mdzypic.com
+  # 360/猫屋资源（视频与图片）
+  - DOMAIN-SUFFIX,maowushi.com
+  - DOMAIN-SUFFIX,imgzy360.com
+  # 爱坤资源（视频与切片落地 CDN）
+  - DOMAIN-SUFFIX,bfikuncdn.com # 爱坤资源 M3U8 播放列表
+  # - DOMAIN-SUFFIX,kkzycdn.com # 实测非标:65端口直连严重QoS限速(12KB/s vs 代理112KB/s)，临时放行走代理加速
+  - DOMAIN-SUFFIX,ynztctv.com # 爱坤资源影视海报与封面图片
+  # 如意资源（视频与切片落地 CDN）
+  - DOMAIN-KEYWORD,ryplay # 如意资源动态轮换播放域（实测直连比代理快 2.1 倍）
+  - DOMAIN-SUFFIX,ryplay7.com # 如意资源专属切片落地 CDN
+  - DOMAIN-SUFFIX,ry-pic.com # 如意资源影视海报与封面图片（实测直连比代理快 1.55 倍）
+  # ─── PPNix 在线视频与 IPFS 切片落地 CDN（实测直连 1.47 MB/s vs 代理 55 KB/s，提升 26 倍）───
+  - DOMAIN-SUFFIX,ppnix.com # 主站与 IPFS 网关
+  - DOMAIN-SUFFIX,66-six.com # 核心分片 CDN（实测直连 1.47 MB/s）
+  - DOMAIN-SUFFIX,ipfs-lens.dev # 备用分片 CDN（实测直连 1.18 MB/s）
+  - DOMAIN-SUFFIX,tat-nft.io # IPFS 切片落地 CDN（实测直连 346.8 KB/s 快于代理）
