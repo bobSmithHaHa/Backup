@@ -15,7 +15,9 @@ payload:
   #    否则下列域名会先被 GEOSITE,github 截走代理，直连加速全部失效！
   - DOMAIN,api.github.com # GitHub API：直连 0.30s vs 代理 1.29s（快4倍）
   - DOMAIN,codeload.github.com # 源码归档下载：直连 917KB/s vs 51KB/s（快18倍）；github.com 子域必须显式前置
-  - DOMAIN-SUFFIX,githubusercontent.com # RAW/Release附件/镜像层CDN：直连 0.85s·10/10成功 vs 代理 6.2s·7/10失败
+  - DOMAIN,raw.githubusercontent.com # RAW 代码/配置文件等轻量文本走直连
+  - DOMAIN,user-images.githubusercontent.com # Issue/PR 轻量静态图片走直连
+  - DOMAIN,avatars.githubusercontent.com # 用户头像等轻量静态图片走直连
   - DOMAIN-SUFFIX,ghcr.io # 容器镜像仓库：直连 0.55s vs 代理 1.60s
   # ─── npmjs（v2fly github 分类 include:npmjs 会截胡，需前置直连）用于 opencode2的安装需直连───
   - DOMAIN-SUFFIX,npmjs.org # npm 仓库主域
