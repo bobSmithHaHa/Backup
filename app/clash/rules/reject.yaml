@@ -16,4 +16,7 @@ payload:
   - DOMAIN-KEYWORD,openx # OpenX 广告交易平台
   - DOMAIN-KEYWORD,adsystem # 各家广告系统域（如 googleadsystem）
   - DOMAIN-KEYWORD,supersonicads # ironSource/SuperSonic 广告 SDK
+  # ─── Sublime Text 4 授权验证、防掉激活与版本更新阻断 ───
+  - DOMAIN-SUFFIX,sublimehq.com # 拦截 Sublime HQ 授权验证、证书反查、崩溃上报与遥测
+  - DOMAIN,download.sublimetext.com # 精准拦截 Sublime Text 官方更新检测与安装包分发
 
