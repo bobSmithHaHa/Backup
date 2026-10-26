@@ -1,0 +1,7 @@
+# GitHub 专属代理规则集（自定义微调与补充）
+payload:
+  # ─── GitHub Raw 资源与 Provider 规则集源（保障直链/图片与订阅更新） ───
+  - DOMAIN,raw.githubusercontent.com
+  # ─── GitHub 官方与周边特定服务补充（后续可随时在此追加自定义规则） ───
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubstatus.com
