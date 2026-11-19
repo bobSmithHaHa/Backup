@@ -22,6 +22,11 @@ payload:
   - DOMAIN-SUFFIX,npmjs.org # npm 仓库主域
   - DOMAIN-SUFFIX,npmjs.com # npm 仓库备域
   - DOMAIN-SUFFIX,npm.community # npm 社区论坛
+  # ─── 甲骨文云：注册、验证码、控制台统一走国内直连 ───
+  # 目的：注册与登录同一出口，避免 geosite 只覆盖 oracle.com 导致控制台/验证码走海外节点，会话 IP 跨洲跳动
+  - DOMAIN-SUFFIX,oracle.com # 注册页、登录页、账单与静态资源（geosite cn 已覆盖，显式声明防库变动）
+  - DOMAIN-SUFFIX,oraclecloud.com # signup / console / identity / objectstorage / ocistatus 全量直连
+  - DOMAIN-SUFFIX,hcaptcha.com # 注册人机验证，页面直连而验证码走美国会破坏出口一致性
   # ─── 运营商与系统级直连（geosite 库实测未覆盖）───
   - DOMAIN-SUFFIX,cmpassport.com # 中国移动一键登录认证（geosite 的 cn 分类未收录，走代理会致认证失败）
   - DOMAIN-SUFFIX,id6.me # 运营商号码认证开放平台（同上）
