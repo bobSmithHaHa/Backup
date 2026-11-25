@@ -94,6 +94,13 @@ payload:
   - DOMAIN-SUFFIX,dytt-cine.com
   - DOMAIN-SUFFIX,dytt-hot.com
   - DOMAIN-SUFFIX,jimxtc.com
+  # 荐片 H5（电影天堂官方 H5 站；2026-11-25 实测直连全面快于代理，XL 线路 m3u8 走代理被 444 拒绝）
+  # ⚠️ 仅 jianpian.tv 可直连，jianpian.com（客户端官网）被墙必须保持走代理
+  - DOMAIN-SUFFIX,jianpian.tv
+  - DOMAIN-SUFFIX,szqng.com
+  - DOMAIN-SUFFIX,fengbao14.com
+  - DOMAIN-SUFFIX,bfvvs.com
+  - DOMAIN-SUFFIX,xluuss.com
   # 极速资源（视频与图片）
   - DOMAIN-SUFFIX,jisuzyv.com
   - DOMAIN-SUFFIX,jisuimage.com
